@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+.s1 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+.s2 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18pt;
+}
+.s3 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14pt;
+}
+.s4 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+.s5 {
+    color: #0562C1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+.s6 {
+    color: #0562C1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+.s7 {
+    color: #0562C1;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+.s8 {
+    color: #111112;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 20pt;
+}
+
+.s8header {
+    color: #111112;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 12pt;
+    padding-top: 2pt;
+    padding-left: 7pt;
+    padding-bottom: 2pt;
+}
+  
+
+ul {
+    list-style:square; /* Remove default bullets */
+    color: #22233D;
+    padding-left: 20pt;
+  }
+
+.ul1 {
+    list-style:circle; /* Remove default bullets */
+    color: #22233D;
+    padding-left: 20pt;
+  }
+
+  
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    word-wrap: normal;
+    /*display: inline-block;*/
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    }
+
+    .button1 {
+        border-radius: 6px;
+        vertical-align: top;
+        box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+        background-color: #FF851E; 
+        color: black; 
+        border: 2px solid #FF851E;
+        padding-top: 2pt;
+        padding-bottom: 2pt;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        width: 50pt;
+        height: 25pt;
+    }
+
+    .button1:hover {
+        background-color: #FF851E;
+        color: white;
+    }
+
+.r1 {}
+.r2 {}
+.r3 {}
+.r4 {}
+.r5 {}
+.r6 {}
+
+
+.c1 {
+    vertical-align:top; 
+    min-width: 40pt;     
+    max-width: 75pt; 
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+    width:75pt;
+    /*width:89pt;*/
+}
+
+.c2 {
+    vertical-align:top;
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+    min-width: 150pt;  
+    /*width:249pt;*/
+}
+.c3 {
+    vertical-align:top;
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+}
+.c4 {
+    vertical-align:top;
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+    min-width:100pt;
+    max-width:200pt;
+}
+.c5 {
+    vertical-align:top;
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+    min-width: 100pt;  
+    /*width:249pt;*/
+}
+
+.c6 {
+    vertical-align:top;
+    padding-bottom:0.5%;
+    padding-top: 0.5%;
+    min-width: 40pt;  
+    max-width: 40pt; 
+    width: 40pt; 
+    /*width:249pt;*/
+}
+
+.hr {
+    height:25pt;
+}
+
+.ch {      
+    padding-right: 12pt;
+    padding-left: 7pt;
+    text-indent: 0pt;
+    text-align: left;
+    color: #22233D;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14pt;
+    background-color: rgb(99, 173, 236);
+    
+}
+
+.tch {
+    padding-top: 3pt;        
+    padding-right: 5pt;
+    padding-left: 7pt;
+    padding-bottom: 3pt;
+    text-indent: 0pt;
+    text-align:left;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt; 
+    border-top-style:solid;
+    border-top-width:1.25pt;
+    border-color: rgb(99, 173, 236);
+}
+
+.topborder { 
+    border-top-style:solid;
+    border-top-width:1.25pt;
+    border-color: rgb(99, 173, 236);
+}
+.cell  {
+    padding-top: 2pt;
+    padding-left: 7pt;
+    padding-bottom: 2pt;          
+    text-align: left;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    /*text-decoration: none;*/
+    font-size: 10pt;            
+}
+
+.cellhashtag  {
+    padding-top: 2pt;
+    padding-left: 7pt;
+    padding-bottom: 2pt;          
+    text-align: left;
+    color: #5E2C73;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    /*text-decoration: none;*/
+    font-size: 10pt;            
+}
+
+.celldate  {
+    padding-top: 2pt;
+    padding-left: 7pt;
+    padding-bottom: 2pt;          
+    text-align:left; 
+    color: #63ADEC;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    /*text-decoration: none;*/
+    font-size: 10pt;            
+}
+
+.cellli1  {
+    padding-top: 2pt;
+    padding-left: 2pt;
+    padding-bottom: 2pt;          
+    padding-right: 5pt;
+    text-align: left;
+    color: black;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    /*text-decoration: none;*/
+    font-size: 10pt;            
+}
+
+.cellli  {
+    padding-top: 2pt;
+    padding-left: 2pt;
+    padding-bottom: 2pt;          
+    padding-right: 5pt;
+    text-align: left;
+    color: black;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    /*text-decoration: none;*/
+    font-size: 10pt;            
+}
+
+
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+
+.column_fixed {
+    width: 30pt;
+}
+
+.row_fixed {
+    height: 15pt;
+}
+
+.container {
+    position: relative;
+    /*text-align: center;*/
+    color: white;
+    background-image:url(gofaster.svg);
+    background-position:center;
+    width:1000;
+    /*height:1374.587*/
+    height:687.2935
+  }
+
+table {
+    border-collapse: collapse;
+   /* border-spacing: 0;
+    border: 1px solid #22233D;*/
+    width: 100%;
+}
+table.center {
+    vertical-align: top;
+    margin-left: auto; 
+    margin-right: auto;
+}
+table.full {            
+    vertical-align: bottom;
+    margin-left:10%; 
+    width:100%;
+}
+table.margined {
+    vertical-align: top;
+    width:100%;
+    /*margin-left:10%; */
+}
